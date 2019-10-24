@@ -1,0 +1,55 @@
+{
+  "name": "samane-cli",
+  "version": "1.0.2",
+  "description": "A cli for the php framework Samane",
+  "main": "sm.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "keywords": [
+    "framework",
+    "cli",
+    "php",
+    "nodejs"
+  ],
+  "author": "Boubacar Soumare",
+  "license": "MIT",
+  "dependencies": {
+    "@adonisjs/ace": "~5.0.1",
+    "execa": "~0.10.0",
+    "listr": "~0.13.0",
+    "ora": "~2.1.0",
+    "release-it": "~7.4.5",
+    "replace-in-file": "^4.1.1",
+    "semver": "~5.5.0",
+    "shipit-cli": "~4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~4.19.1",
+    "eslint-config-prettier": "~2.9.0",
+    "eslint-config-standard": "~11.0.0",
+    "eslint-plugin-import": "~2.12.0",
+    "eslint-plugin-node": "~6.0.1",
+    "eslint-plugin-prettier": "~2.6.0",
+    "eslint-plugin-promise": "~3.7.0",
+    "eslint-plugin-standard": "~3.1.0",
+    "prettier": "~1.12.1"
+  },
+  "homepage": "https://github.com/boubacarSoumare/samane-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boubacarSoumare/samane-cli.git"
+  },
+  "bin": {
+    "sm": "./sm.js"
+  },
+  "files": [
+    "commands/",
+    "templates/",
+    "utils/",
+    "sm.js",
+    "README.md",
+    "package.json",
+    ".eslintrc.json"
+  ]
+}
